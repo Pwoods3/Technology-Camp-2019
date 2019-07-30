@@ -17,7 +17,5 @@ radio.onReceivedNumber(function (receivedNumber) {
         basic.showIcon(IconNames.Yes)
     } else if (receivedNumber == 7) {
         basic.showIcon(IconNames.Asleep)
-    } else {
-        basic.showIcon(IconNames.No)
     }
 })
